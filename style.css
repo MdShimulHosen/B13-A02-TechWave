@@ -1,0 +1,349 @@
+body{
+
+}
+.navbar{
+    max-width: 1600px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+    margin: 0 auto;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 20px;
+    background-color: #140531;
+}
+header{
+    width: 1600px;
+
+}
+
+.text-base{
+    color: #ffffff;
+}
+.boldtext{
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+}
+.boldtextb{
+    font-size: 3em;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+.bn-img{
+    width: 350px;
+    height: 350px;
+    background-image: url("assets/hero-circle.png");
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.bn-img img{
+    margin: 0 auto;
+}
+.banner-text{
+    width: 550px;
+    height: 72px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+.banner{
+    background-image: url("assets/hero-bg.png");
+    max-width: 1600px;
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    
+}
+.banner-section{
+    width: 550px;
+    height: 558px;
+    margin: 0 auto;
+}
+.bannerp{
+    width: 550px;
+    height: 19px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.button{
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    border: none;
+}
+.banner-button{
+    display: flex;
+    gap: 8px;
+    text-align: center;
+}
+.banner-button1{
+    border-radius: 30px;
+    background: linear-gradient(90deg,#ff002b,#ee09a2);
+    color: #ffffff;
+    height: 44px;
+    width: 201px;
+    margin-top: 24px;
+}
+.banner-button2{
+    border-radius: 30px;
+    height: 44px;
+    width: 201px;
+    color: green;
+    height: 44px;
+    width: 147px;
+    margin-top: 24px;
+    border: 1px solid green;
+}
+
+.gradient-backgraound{
+    background: linear-gradient(90deg,#ff002b,#ee09a2);
+
+}
+.gradient-text{
+  background: linear-gradient(90deg, #ff002b,#ee09a2);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-section{
+    width: 1600px;
+    height: 646px;
+    margin: 0 auto;
+    background-color: #140531;
+}
+.about-text{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.abouth{
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 50px;
+}
+.aboutp{
+    width: 1200px;
+    height: 222px;
+    font-size: 16px;
+    color: #ffffff;
+    line-height: 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+.card h2{
+    font-size: 48px;
+    font-weight: bold;
+    color: #00ff88;
+}
+.card p{
+    font-size: 16px;
+    color: #ffffff;
+}
+hr{
+    width: 1200px;
+    color: #ffffff54;
+    margin: 0 auto;
+}
+.container{
+    height: 74px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 160px;
+}
+
+.why-choose{
+    width: 1600px;
+    height: 1121px;
+    margin: 0 auto;
+    padding: 120px 200px;
+    background-color: #140531ee;
+}
+.why-mt{
+    width: 1200px;
+    height: 58px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+    /*margin-top: 120px;*/
+}
+.why-container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    padding: 40px;
+    width: 1200px;
+    height: 783px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+.why h3{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.why p{
+    font-size: 16px;
+    color: #ffffff9f;
+}
+.why{
+  background-color: #2d1b4dad;
+  /*padding: 30px;*/
+  border-radius: 20px;
+  color: white;
+}
+.card-one{
+    align-items: center;
+    grid-row:span 2;
+}
+.card-two{
+    grid-column:span 2;
+}
+.fetured{
+    width: 1600px;
+    height: 1276px;
+    margin: 0 auto;
+    background-color: #140531;
+    padding-top: 100px;
+
+}
+.fcontainer{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 120px;
+}
+.fcard{
+    width: 380px;
+    height: 440px;
+    border-radius: 20px;
+}
+.fcard h3{
+    color: #ffffff;
+    margin-bottom: 12px;
+}
+iframe{
+    width: 380px;
+    height: 214px;
+    margin-bottom: 24px;
+    border-radius: 20px 20px 0 0;
+}
+.host{
+    display: flex;
+    width: 1200px;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 40px;
+    gap: 24px;
+    margin-bottom: 120px;
+    background-color: #2d1b4d98;
+    align-items: center;
+    border-radius: 20px;
+    padding: 48.5px 40px 48.5px 40px;
+
+}
+.icontainer{
+    display: flex;
+    gap: 8px;
+    margin-top: 16px;
+}
+.hicon{
+    height: 40px;
+    width: 40px;
+}
+.hcontainer h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.hcontainer p{
+    font-size: 16px;
+    color: #ffffff9f;
+    line-height: 24px;
+}
+footer{
+    width: 1600px;
+    height: 412px;
+    background-image: url("assets/footer-bg.png");
+    margin: 0 auto;
+    background-color: #2d1b4d9a ;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.footer-container h3{
+    font-size: 4em;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 32px;
+}
+.fficon{
+    display: flex;
+    width: 544px;
+    height: 24px;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    color: #ffffff;
+}
+.ficon{
+    display: flex;
+    gap: 10px;
+    width: 67px;
+    height: 24px;
+}
+footer p{
+    width: 1360px;
+    height: 24px;
+    font-size: 16px;
+    color: #ffffff;
+    margin: 0 auto;
+    text-align: center;
+}
+@media screen and (max-width:576px) {
+    .navbar{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .about p{
+        text-wrap-style: auto;
+    }
+    .container{
+        width: 440px;
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .why-container{
+        width: 440px;
+        display: grid;
+        grid-template-rows: repeat(1,1fr);
+    }
+    .fcontainer{
+        flex-direction: column;
+    }
+    .host{
+        flex-direction: column;
+    }
+}
