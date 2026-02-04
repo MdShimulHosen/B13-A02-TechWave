@@ -41,6 +41,11 @@ header{
     display: flex;
     align-items: center;
 }
+.bn-img p{
+    color: #00ff88;
+    
+}
+
 .bn-img img{
     margin: 0 auto;
 }
@@ -248,6 +253,10 @@ iframe{
     height: 214px;
     margin-bottom: 24px;
     border-radius: 20px 20px 0 0;
+}
+#min{
+    color: green;
+    font-weight: bold;
 }
 .host{
     display: flex;
