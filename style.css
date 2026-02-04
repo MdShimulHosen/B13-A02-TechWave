@@ -14,6 +14,9 @@ body{
     margin-top: 20px;
     background-color: #140531;
 }
+.hamburg{
+    display: none;
+}
 header{
     width: 1600px;
 
@@ -340,28 +343,31 @@ footer p{
     margin: 0 auto;
     text-align: center;
 }
-@media screen and (max-width:576px) {
-    .navbar{
-        flex-direction: column;
-        gap: 20px;
+@media screen and (max-width: 576px) {
+    .hamburg{
+        display: block;
+        background-color: #ffffff9f;
     }
-    .about p{
-        text-wrap-style: auto;
+    .ul{
+        display: none;
+    }
+    .button{
+        display: none;
     }
     .container{
-        width: 440px;
-        display: grid;
-        grid-template-columns: repeat(2,1fr);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
     }
+
     .why-container{
-        width: 440px;
-        display: grid;
-        grid-template-rows: repeat(1,1fr);
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 20px;
     }
+
     .fcontainer{
-        flex-direction: column;
+    flex-direction: column;
+    gap: 10px;
     }
-    .host{
-        flex-direction: column;
-    }
+
 }
