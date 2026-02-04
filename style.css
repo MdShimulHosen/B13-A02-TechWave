@@ -326,6 +326,7 @@ footer{
     color: #ffffff;
 }
 .ficon{
+    color: #ffffff9f;
     display: flex;
     gap: 10px;
     width: 67px;
@@ -335,7 +336,7 @@ footer p{
     width: 1360px;
     height: 24px;
     font-size: 16px;
-    color: #ffffff;
+    color: #ffffff9f;
     margin: 0 auto;
     text-align: center;
 }
