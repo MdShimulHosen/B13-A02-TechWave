@@ -42,10 +42,18 @@ header{
     align-items: center;
 }
 .bn-img p{
-    color: #00ff88;
+    color: black;
+    font-weight: 700;
+    background-color: #00ff88;
+    border-radius: 20px;
+    padding: 6px 15px;
+    display: inline-block;
+    position: absolute;
+    left: 883px;
+    top: 146px;
+
     
 }
-
 .bn-img img{
     margin: 0 auto;
 }
